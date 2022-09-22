@@ -16,6 +16,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/POC/Test"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
 				}
 			}
 		],
