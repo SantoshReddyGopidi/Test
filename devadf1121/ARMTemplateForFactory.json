@@ -97,9 +97,6 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
-				"folder": {
-					"name": "Staging"
-				},
 				"annotations": [],
 				"lastPublishTime": "2022-09-22T09:08:17Z"
 			},
@@ -137,9 +134,6 @@
 				"policy": {
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
-				},
-				"folder": {
-					"name": "Staging"
 				},
 				"annotations": [],
 				"lastPublishTime": "2022-09-22T09:08:17Z"
