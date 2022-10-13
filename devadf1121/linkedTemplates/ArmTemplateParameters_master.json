@@ -8,8 +8,14 @@
 		"AzureDatabricks1_accessToken": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-			"value": "0921-060220-lz0zf8ef"
+			"value": "1003-142206-ilweo5x5"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://demostorageaccount1121.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
