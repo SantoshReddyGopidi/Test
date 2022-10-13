@@ -241,7 +241,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"folderPath": "Mart/dbo/Product",
+						"folderPath": "Mart/stg/Employees",
 						"fileSystem": "demo"
 					},
 					"compressionCodec": "snappy"
