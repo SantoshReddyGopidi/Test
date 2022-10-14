@@ -5,14 +5,8 @@
 		"factoryName": {
 			"value": "devadf1121"
 		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
 		"AzureDatabricks1_accessToken": {
 			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://demostorageaccount1121.dfs.core.windows.net/"
 		},
 		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
 			"value": "1003-142206-ilweo5x5"
