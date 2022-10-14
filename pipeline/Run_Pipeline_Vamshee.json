@@ -1,9 +1,9 @@
 {
-	"name": "pipeline1_vamshee_New",
+	"name": "Run_Pipeline_Vamshee",
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook2",
+				"name": "Notebook_Test",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
