@@ -13,7 +13,7 @@
 		},
 		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
 			"type": "string",
-			"defaultValue": "1003-142206-ilweo5x5"
+			"defaultValue": "1018-131221-oqjlup2l"
 		}
 	},
 	"variables": {
@@ -111,6 +111,37 @@
 				}
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/trigger1')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Started",
+				"pipelines": [
+					{
+						"pipelineReference": {
+							"referenceName": "RefreshTestNotebooks",
+							"type": "PipelineReference"
+						},
+						"parameters": {}
+					}
+				],
+				"type": "ScheduleTrigger",
+				"typeProperties": {
+					"recurrence": {
+						"frequency": "Minute",
+						"interval": 5,
+						"startTime": "2022-10-18T13:28:00Z",
+						"endTime": "2022-10-18T13:36:00Z",
+						"timeZone": "UTC"
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/pipelines/RefreshTestNotebooks')]"
+			]
 		}
 	]
 }

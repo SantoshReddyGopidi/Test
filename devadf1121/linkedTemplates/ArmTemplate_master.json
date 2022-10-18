@@ -13,7 +13,7 @@
 		},
 		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
 			"type": "string",
-			"defaultValue": "1003-142206-ilweo5x5"
+			"defaultValue": "1018-131221-oqjlup2l"
 		},
 		"containerUri": {
 			"type": "string",
